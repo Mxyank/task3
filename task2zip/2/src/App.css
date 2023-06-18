@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: rgb(34,193,195);
+background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,109,253,0.756827731092437) 100%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.calculator {
+  background-color: #002D9B;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 390px;
+  width: 250px;
+}
+
+.display {
+  color: #fff;
+  font-size: 36px;
+  position: relative;
+  padding: 20px 10px;
+  text-align: right;
+  height: 70px;
+  width: 100%;
+}
+
+
+.nums-container {
+  width: 75%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.big-v {
+  border-radius: 50px;
+  height: 110px;
+}
+
+button.big-h {
+  border-radius: 50px;
+  width: 110px;
+}
+
+button.orange {
+  background-color: #002D9B;
+  color: #fff;
+}
+
+button.dark-grey {
+  background-color: #002D9B;
+  color: #fff;
+}
+
+button.light-grey {
+  background-color: #002D9B;
+  color: #fff;
+}
+
+button.ac {
+  margin-right: 50%;
+}
